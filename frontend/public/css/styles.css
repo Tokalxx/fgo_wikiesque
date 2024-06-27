@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+}
+
+img{
+    width: 15%;
+    margin: 10px;
+}
+
+.info_tab{
+    background-color: lightblue !important;
+    border: black 1px solid;
+    width: 30%;
+    text-align: center;
+    margin: 5px;
+}
+
+.tabs{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_div{
+    height: 100%;
+}
+
+.info_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border: black 1px solid;
+}
+
+#servant-data-dispay{
+    border: solid 1px red;
+    width: 15%;
+    margin: 10px;
+    padding: 25px;
+}
+
+.servant-data{
+    height: 15%;
+    overflow: hidden;
+    width: auto;
+    border: solid 1px red;
+    text-align: center;
+    margin: 25% auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: lightblue;
+    width: 100%;
+    height: 3rem;
+    overflow: visible;
+    text-decoration: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+}
+
+.navigationBar_items{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 5px;
+}
+
+.nav_item{
+    border: solid 1px red;
+    background-color: red;
+    color: white;
+}
+
